@@ -472,7 +472,7 @@ h4,
     font-size: 18px; }
   .snip-layout .snip-header {
     font-weight: 700;
-    background: #222;
+    background: #123123;
     color: #fff;
     padding: 1em;
     position: relative;
@@ -557,7 +557,7 @@ h4,
       right: 1.25em;
       top: 50%; } }
   .snip-layout .snip-footer {
-    background: #222;
+    background: #123123;
     padding: .125em .625em;
     text-transform: uppercase; }
   .snip-layout .snip-footer__copyright {
