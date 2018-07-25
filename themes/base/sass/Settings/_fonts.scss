@@ -10,6 +10,7 @@ $font-base: Arial, sans-serif;
 /**
     ICONS FONT
 */
+/*
 @font-face {
     font-family: "Snipcart";
     src: url('fonts/snipcart/Snipcart.woff?94043836') format("woff"),
@@ -17,6 +18,17 @@ $font-base: Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
 }
+*/
+
+
+@font-face {
+    font-family: "Bitter" serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 /**

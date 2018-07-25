@@ -24,9 +24,19 @@
 /**
     ICONS FONT
 */
+/*
 @font-face {
-  font-family: "Snipcart";
-  src: url("fonts/snipcart/Snipcart.woff?94043836") format("woff"), url("fonts/snipcart/Snipcart.ttf?94043836") format("truetype");
+    font-family: "Snipcart";
+    src: url('fonts/snipcart/Snipcart.woff?94043836') format("woff"),
+         url('fonts/snipcart/Snipcart.ttf?94043836') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+@font-face {
+  font-family: "Bitter" serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro");
   font-weight: normal;
   font-style: normal; }
 
@@ -420,9 +430,9 @@ h4,
     padding: .417em; }
   .snip-layout .snip-btn--highlight {
     background: #ffcd00;
-    color: #f5f5f3; }
+    color: #333; }
     .snip-layout .snip-btn--highlight:hover {
-      background-color: #deded7; }
+      background-color: #cca400; }
   .snip-layout .snip-btn--left {
     float: left; }
   .snip-layout .snip-btn--right {
@@ -831,7 +841,7 @@ h4,
     height: 1em;
     width: 1em; }
     .snip-layout .snip-quantity-trigger__btn--duplicate:hover {
-      background-color: #deded7; }
+      background-color: #cca400; }
     .snip-layout .snip-quantity-trigger__btn--duplicate:before {
       display: block;
       height: 1em;
