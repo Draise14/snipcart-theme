@@ -13,19 +13,28 @@ Draise
     We also respect our BEM like notation and files architecture.
 */
 
+/*Ocre Orange*/
+/* bc320a */
+
+/*Yello2*/
+/* ffcd00 */
+
+
+
+
 $palettes: (
     action: (
-        link: #999
+        link: #65787a
     ),
     button: (
-        background: #bc320a,
-        background--highlight: #ffcd00,
+        background: #bc320a, /*Ocre Orange*/
+        background--highlight: #ffcd00, /**/
         background--hover: darken(#bc320a, 10%),
         background--danger: #f10,
         background--danger-hover: darken(#f10, 10%),
-        background--highlight-hover: darken(#ffcd00, 10%),
+        background--highlight-hover: darken(#f5f5f3, 10%),
         color: #fff,
-        color--highlight: #ff8f29,
+        color--highlight: #f5f5f3,
     ),
     error: (
         color: #f10,
@@ -50,9 +59,9 @@ $palettes: (
         color--invert: #fff
     ),
     footer: (
-        background: #ff7900,
-        color: #bc320a,
-        color--highlight: #999
+        background: #bc320a,
+        color: #ffcd00,
+        color--highlight: #ffb662
     ),
     form: (
         background: #fff,
@@ -60,19 +69,19 @@ $palettes: (
         border--focus: #333,
         color: #bc320a,
         color--highlight: #333,
-        label-color: #999
+        label-color: #65787a
     ),
     header: (
         background: #ff7900,
         background--highlight: #111,
         color: #fff,
-        label-color: #999
+        label-color: #65787a
     ),
     layout: (
         background: #fff,
         border: #eee,
         close-color: #fff,
-        color: #999,
+        color: #65787a,
         content-background: #f6eacfff,
         content-border: #bbb,
         loading-color: #333
@@ -98,13 +107,13 @@ $palettes: (
         background--highlight: #f6eacfff,
         border: #eee,
         color--highlight: #333,
-        color--link: #999
+        color--link: #65787a
     ),
     step: (
         background: #ccc,
         background--active: #fff,
         border: #bbb,
-        color: #999,
+        color: #65787a,
         color--active: #333
     ),
     table: (
