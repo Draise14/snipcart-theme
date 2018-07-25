@@ -1,4 +1,10 @@
 /**
+Ver 1.0.1
+Draise
+24 July 2018
+**/
+
+/**
     COLOR
 
     Where all color's variables are defined
@@ -12,14 +18,14 @@ $palettes: (
         link: #999
     ),
     button: (
-        background: #555,
-        background--highlight: #efe778,
-        background--hover: darken(#555, 10%),
+        background: #bc320a,
+        background--highlight: #ffcd00,
+        background--hover: darken(#bc320a, 10%),
         background--danger: #f10,
         background--danger-hover: darken(#f10, 10%),
-        background--highlight-hover: darken(#efe778, 10%),
+        background--highlight-hover: darken(#ffcd00, 10%),
         color: #fff,
-        color--highlight: #222,
+        color--highlight: #ff8f29,
     ),
     error: (
         color: #f10,
@@ -29,7 +35,7 @@ $palettes: (
     badge: (
         background--success: #76d443,
         background--error: #f10,
-        background--warn: #efe778,
+        background--warn: #ffcd00,
         text--success: #333,
         text--error: #fff,
         text--warn: #333
@@ -37,27 +43,27 @@ $palettes: (
     flash: (
         background--error: #f10,
         background--success: #76d443,
-        background--warning: #efe778,
-        background--confirm: #222,
+        background--warning: #ffcd00,
+        background--confirm: #ff8f29,
         border: #333,
         color: #333,
         color--invert: #fff
     ),
     footer: (
-        background: #123123,
-        color: #555,
+        background: #ff7900,
+        color: #bc320a,
         color--highlight: #999
     ),
     form: (
         background: #fff,
         border: #eee,
         border--focus: #333,
-        color: #555,
+        color: #bc320a,
         color--highlight: #333,
         label-color: #999
     ),
     header: (
-        background: #123123,
+        background: #ff7900,
         background--highlight: #111,
         color: #fff,
         label-color: #999
@@ -67,29 +73,29 @@ $palettes: (
         border: #eee,
         close-color: #fff,
         color: #999,
-        content-background: #f8f8f8,
+        content-background: #f6eacfff,
         content-border: #bbb,
         loading-color: #333
     ),
     loader: (
-        background: #222,
-        background--highlight: #efe778
+        background: #ff8f29,
+        background--highlight: #ffcd00
     ),
     product: (
-        background: #f8f8f8,
+        background: #f6eacfff,
         border: #eee,
         color--error: #f10,
         color--highlight: #333
     ),
     quantity-trigger: (
         background: #ccc,
-        background--hover: #efe778,
+        background--hover: #ffcd00,
         background--disabled: #eee,
         color: #111,
         color--disabled: #bbb
     ),
     static: (
-        background--highlight: #f8f8f8,
+        background--highlight: #f6eacfff,
         border: #eee,
         color--highlight: #333,
         color--link: #999
@@ -102,7 +108,7 @@ $palettes: (
         color--active: #333
     ),
     table: (
-        background--highlight: #f8f8f8,
+        background--highlight: #f6eacfff,
         border: #eee,
         color--highlight: #333,
         color--success: #76d443
@@ -110,7 +116,7 @@ $palettes: (
     tooltip: (
         background: #ccc,
         border: #ccc transparent,
-        label: #555,
+        label: #bc320a,
         text: #111
     )
 );

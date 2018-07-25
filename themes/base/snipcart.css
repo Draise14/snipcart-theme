@@ -46,6 +46,11 @@
     Where all media queries' variables are defined
 */
 /**
+Ver 1.0.1
+Draise
+24 July 2018
+**/
+/**
     COLOR
 
     Where all color's variables are defined
@@ -369,7 +374,7 @@ h4,
     border-radius: 3px;
     border: 1px solid #eee;
     box-sizing: border-box;
-    color: #555;
+    color: #bc320a;
     display: block;
     font-size: 14px;
     height: auto;
@@ -387,7 +392,7 @@ h4,
       border-color: #333; }
   .snip-layout .snip-btn {
     font-weight: 700;
-    background-color: #555;
+    background-color: #bc320a;
     border-radius: 3px;
     border: 0;
     color: #fff;
@@ -400,7 +405,7 @@ h4,
     padding: 0 1em;
     text-transform: uppercase; }
     .snip-layout .snip-btn:hover {
-      background-color: #3c3c3c; }
+      background-color: #8c2507; }
     @media only screen and (min-width: 48em) {
       .snip-layout .snip-btn {
         font-size: 12px;
@@ -410,10 +415,10 @@ h4,
     line-height: normal;
     padding: .417em; }
   .snip-layout .snip-btn--highlight {
-    background: #efe778;
-    color: #222; }
+    background: #ffcd00;
+    color: #ff8f29; }
     .snip-layout .snip-btn--highlight:hover {
-      background-color: #eadf4a; }
+      background-color: #cca400; }
   .snip-layout .snip-btn--left {
     float: left; }
   .snip-layout .snip-btn--right {
@@ -460,7 +465,7 @@ h4,
       .snip-layout .snip-layout__content {
         padding: 2em 0; } }
   .snip-layout .snip-layout__content--highlight {
-    background-color: #f8f8f8;
+    background-color: #f6eacfff;
     border-bottom: 1px solid #bbb;
     border-top: 1px solid #bbb;
     padding: 1em 0; }
@@ -472,7 +477,7 @@ h4,
     font-size: 18px; }
   .snip-layout .snip-header {
     font-weight: 700;
-    background: #123123;
+    background: #ff7900;
     color: #fff;
     padding: 1em;
     position: relative;
@@ -557,12 +562,12 @@ h4,
       right: 1.25em;
       top: 50%; } }
   .snip-layout .snip-footer {
-    background: #123123;
+    background: #ff7900;
     padding: .125em .625em;
     text-transform: uppercase; }
   .snip-layout .snip-footer__copyright {
     background: url("img/lock.png") no-repeat left 0.3em;
-    color: #555;
+    color: #bc320a;
     display: inline-block;
     font-size: 10px;
     height: 35px;
@@ -610,7 +615,7 @@ h4,
       padding: 10px;
       border-radius: 5px; }
       .snip-layout .snip-table .snip-table__cell__notices div.snip-table__cell__notices--warning {
-        background-color: #faf7d3;
+        background-color: #ffe166;
         color: #333; }
       .snip-layout .snip-table .snip-table__cell__notices div.snip-table__cell__notices--error {
         background-color: #ffcfcc;
@@ -667,7 +672,7 @@ h4,
     display: table-row-group;
     padding: 1.429em; }
   .snip-layout .snip-table__body--small {
-    background: #f8f8f8; }
+    background: #f6eacfff; }
     @media only screen and (min-width: 48em) {
       .snip-layout .snip-table__body--small {
         padding: .429em 1.429em .429em 2.857em; } }
@@ -714,7 +719,7 @@ h4,
       .snip-layout .snip-table__small-col + .snip-table__small-col {
         border-left: 1px solid #eee; } }
   .snip-layout .snip-product {
-    background: #f8f8f8;
+    background: #f6eacfff;
     border-top: 1px solid #eee;
     font-size: 14px;
     padding: 2em 1.25em; }
@@ -806,7 +811,7 @@ h4,
     float: left;
     padding: 0 .313em; }
   .snip-layout .snip-quantity-trigger__btn--duplicate {
-    background-color: #efe778;
+    background-color: #ffcd00;
     border-radius: 30px;
     display: -webkit-box;
     display: flex;
@@ -822,7 +827,7 @@ h4,
     height: 1em;
     width: 1em; }
     .snip-layout .snip-quantity-trigger__btn--duplicate:hover {
-      background-color: #eadf4a; }
+      background-color: #cca400; }
     .snip-layout .snip-quantity-trigger__btn--duplicate:before {
       display: block;
       height: 1em;
@@ -837,7 +842,7 @@ h4,
     height: 1em;
     width: 1em; }
     .snip-layout .snip-quantity-trigger__btn:hover {
-      background-color: #efe778; }
+      background-color: #ffcd00; }
     .snip-layout .snip-quantity-trigger__btn:before {
       display: block;
       height: 1em;
@@ -867,7 +872,7 @@ h4,
     width: 100%;
     position: relative;
     overflow: hidden;
-    background-color: #222;
+    background-color: #ff8f29;
     margin-top: -.3em; }
     .snip-layout .snip-loader--bar:before {
       display: block;
@@ -876,7 +881,7 @@ h4,
       left: -200px;
       width: 30%;
       height: 0.3em;
-      background-color: #efe778;
+      background-color: #ffcd00;
       -webkit-animation: snip-loading 2s ease-in-out infinite;
       animation: snip-loading 2s ease-in-out infinite; }
     .snip-layout .snip-loader--bar.js-hidden {
@@ -1079,7 +1084,7 @@ h4,
     padding: 1em 15%;
     text-align: center; }
   .snip-layout .snip-static--highlight {
-    background: #f8f8f8;
+    background: #f6eacfff;
     border-top: 1px solid #eee; }
   .snip-layout .snip-static__title {
     font-weight: 700;
@@ -1135,7 +1140,7 @@ h4,
   .snip-layout .snip-tooltip__container {
     position: relative; }
   .snip-layout .snip-tooltip__list {
-    color: #555; }
+    color: #bc320a; }
   .snip-layout .snip-tooltip__item {
     font-weight: 700;
     color: #111;
@@ -1183,10 +1188,10 @@ h4,
     .snip-layout .snip-flash__item--success:hover {
       background-color: #489021; }
   .snip-layout .snip-flash__item--warn {
-    background-color: #efe778;
+    background-color: #ffcd00;
     color: #333; }
   .snip-layout .snip-flash__item--confirm {
-    background-color: #222; }
+    background-color: #ff8f29; }
     .snip-layout .snip-flash__item--confirm .snip-static__title {
       color: #fff; }
   .snip-layout .snip-flash__item--error {
@@ -1221,7 +1226,7 @@ h4,
     background-color: #f10;
     color: #fff; }
   .snip-layout .snip-badge--warn {
-    background-color: #efe778;
+    background-color: #ffcd00;
     color: #333; }
   @media only screen and (min-width: 64em) {
     .snip-layout {
